@@ -1,0 +1,26 @@
+忽略所有資料檔 (避免上傳真實或大型醫療數據到公開庫)
+
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+忽略所有程式產生的輸出檔
+
+output/*.csv
+output/*.png
+
+忽略 Jupyter Notebook 產生的暫存檔
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+忽略 Python 產生的暫存檔
+
+pycache/
+*.py[cod]
+*$py.class
+
+忽略作業系統產生的隱藏檔
+
+.DS_Store
+Thumbs.db
