@@ -1,0 +1,30 @@
+資料檔案 (極大檔案不建議上傳)
+
+**/data/*.csv
+**/data/*.zip
+
+Jupyter Notebook 暫存
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+Python 執行暫存
+
+pycache/
+*.py[cod]
+*$py.class
+
+作業產出的數據結果 (視個人需求是否保留，通常大型 CSV 建議忽略)
+
+**/output/*.csv
+
+作業系統暫存
+
+.DS_Store
+Thumbs.db
+
+虛擬環境
+
+venv/
+.venv/
+env/
