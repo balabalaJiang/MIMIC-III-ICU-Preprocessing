@@ -1,7 +1,5 @@
 # MIMIC-III 醫療資料探勘實務：從資料前處理到抽樣策略實證
 
-**學生姓名**：江永閎 (Yong-Hong Chiang)  
-**就讀系所**：中山醫學大學 醫學資訊學系 三年級  
 **課程名稱**：資料探勘與機器學習
 
 ---
@@ -25,13 +23,16 @@ MIMIC-III-Project/
 │  ├─ A1_1258001.ipynb        # EDA 與前處理主程式碼
 │  ├─ A1_1258001.md           # 第一階段技術報告
 │  ├─ PROMPT_LOG.md           # A1 的 AI 協作提示詞紀錄
-│  └─ DEBUG_LOG.md            # A1 的實驗除錯紀錄
+│  ├─ DEBUG_LOG.md            # A1 的實驗除錯紀錄
+│  ├─ data/
+│  └─ output/                 # A1 產出的 df_model_ready.csv 等
 │
 └─ A2_Machine_Learning/       # 第二階段：機器學習建模與統計檢定
    ├─ A2_1258001.ipynb        # 核心實驗與訓練迴圈主程式碼
    ├─ A2_1258001.md           # 第二階段實證研究報告
    ├─ PROMPT_LOG.md           # A2 的 AI 協作提示詞紀錄
    ├─ DEBUG_LOG.md            # A2 的實驗除錯紀錄
+   ├─ data/
    └─ output/                 # A2 產出的視覺化圖表與 Markdown 結果表格
 ```
 
